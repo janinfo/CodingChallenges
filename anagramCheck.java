@@ -5,6 +5,7 @@ public class AnagramCheck {
 	
 	public static void main(String[] args) {
 		
+		// scanner reads two strings to compare
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Enter first String: ");
 		String word1 = scan.nextLine();
