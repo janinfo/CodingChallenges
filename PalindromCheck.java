@@ -7,7 +7,7 @@ public class PalindromCheck {
 		// empty String to store the reversed word
 		String word_rev = "";	
 		
-		// scan the word
+		// scans the word you want to verify
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Enter a word or phrase: ");
 		System.out.println("(Without punctuation)");
