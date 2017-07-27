@@ -9,6 +9,8 @@ public class MickeyMouse{
 		 *	- by 5 print "Mouse"
 		 *	- by 15 print "MickeyMouse"
 		 * instead of the number.
+		 *
+		 * Also known as "FizzBuzz".
 		 */
 		
 		for (int i = 1; i <= 100; i++) {
