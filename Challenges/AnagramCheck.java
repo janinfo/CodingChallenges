@@ -4,13 +4,11 @@ import java.util.Arrays;
 public class AnagramCheck {
 	public static void main(String[] args) {
 
-		/*
-		 * _the challenge_
+		/* _the challenge_
 		 *
 		 * Given are two strings.
 		 * The algorithm check if they include the exact same same characters.
 		 * If this condition is complied they are palindromes.
-		 *
 		 */
 		
 		// scanner reads two strings to compare

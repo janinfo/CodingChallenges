@@ -4,13 +4,11 @@ public class PalindromCheck {
 	
 	public static void main(String[] args) {
 
-		/*
-		 * _the challenge_
+		/* _the challenge_
 		 *
 		 * Given are two strings.
 		 * The algorithm check if they are forward likewise backward the same.
 		 * If this condition is complied they are palindromes.
-		 *
 		 */
 		
 		// empty String to store the reversed word

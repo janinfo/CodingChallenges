@@ -2,8 +2,7 @@ public class ThreeSum {
 
     public static void main(String[] args) {
 
-        /*
-		 * _the challenge_
+        /* _the challenge_
 		 *
 		 * Given is a list of numbers.
 		 * The algorithm checks if three of them add upp to zero.

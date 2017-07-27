@@ -3,13 +3,11 @@ import java.util.*;
 public class ListSumChecker {
 	public static void main(String[] args) {
 
-		/*
-		 * _the challenge_
+		/* _the challenge_
 		 *
 		 * Given is an list of numbers and a 'result' number.
 		 * The scanner reads n numbers which are added to the myNumList.
 		 * The algorithm checks if two of them sum up the result number.
-		 *
 		 */
 		
 		// hashSet for actual numbers
