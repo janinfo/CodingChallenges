@@ -9,7 +9,6 @@ public class Doors100 {
          * https://rosettacode.org/wiki/100_doors
          */
 
-
         // create 100 'doors'
         List<Boolean> doorList = new ArrayList<Boolean>(Arrays.asList(new Boolean[101]));
 //        doorList.remove(0);
@@ -30,7 +29,7 @@ public class Doors100 {
                 System.out.println("Door " + i + " is open");
             }
             else {
-                System.out.println("");
+                System.out.println(i);
             }
 
 
