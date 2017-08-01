@@ -22,7 +22,7 @@ public class MagicDice {
         double d5 = 0.16666666666; //dice = 5
         double d6 = 0.16666666666; //dice = 6
 
-        // for debugging realsons
+        // for debugging reasons
         int result1 = 0;
         int result2 = 0;
         int result3 = 0;
@@ -39,7 +39,7 @@ public class MagicDice {
         char input = reader.next().charAt(0);
 
         while (input == 'w'){
-            for (int i = 0; i < 1; i++) {
+            for (int i = 0; i < 1000; i++) {
 
                 double toss = Math.random();
 
