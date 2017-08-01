@@ -39,33 +39,70 @@ public class MagicDice {
         char input = reader.next().charAt(0);
 
         while (input == 'w'){
-            for (int i = 0; i < 1000000; i++) {
+            for (int i = 0; i < 1; i++) {
 
                 double toss = Math.random();
 
                 if (toss > d1 + d2 +d3 + d4 +d5) {
 //                    System.out.println("1");
                     result1++;
+                    d1 *= 0.9;
+                    d2 *= 1.02;
+                    d3 *= 1.02;
+                    d4 *= 1.02;
+                    d5 *= 1.02;
+                    d6 *= 1.02;
+
                 }
                 else if (toss > d1 + d2 +d3 + d4) {
 //                    System.out.println("2");
                     result2++;
+                    d2 *= 0.9;
+                    d1 *= 1.02;
+                    d3 *= 1.02;
+                    d4 *= 1.02;
+                    d5 *= 1.02;
+                    d6 *= 1.02;
                 }
                 else if (toss > d1 + d2 +d3) {
 //                    System.out.println("3");
                     result3++;
+                    d3 *= 0.9;
+                    d1 *= 1.02;
+                    d2 *= 1.02;
+                    d4 *= 1.02;
+                    d5 *= 1.02;
+                    d6 *= 1.02;
                 }
                 else if (toss > d1 + d2) {
 //                    System.out.println("4");
                     result4++;
+                    d4 *= 0.9;
+                    d1 *= 1.02;
+                    d2 *= 1.02;
+                    d3 *= 1.02;
+                    d5 *= 1.02;
+                    d6 *= 1.02;
                 }
                 else if (toss > d1) {
 //                    System.out.println("5");
                     result5++;
+                    d5 *= 0.9;
+                    d1 *= 1.02;
+                    d2 *= 1.02;
+                    d3 *= 1.02;
+                    d4 *= 1.02;
+                    d6 *= 1.02;
                 }
                 else {
 //                    System.out.println("6");
                     result6++;
+                    d6 *= 0.9;
+                    d1 *= 1.02;
+                    d2 *= 1.02;
+                    d3 *= 1.02;
+                    d4 *= 1.02;
+                    d5 *= 1.02;
                 }
                 System.out.println("calculating ..");
 
