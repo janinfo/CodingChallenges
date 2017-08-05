@@ -23,7 +23,7 @@ public class PrimeNumbers {
                     break;
                 }
                 if (num - j == 1) {
-//                    System.out.println("PRIME NUMBER FOUND! It's: " + num + ".");
+                    System.out.println("PRIME NUMBER FOUND! It's: " + num + ".");
                     myPrimeNumbers.add(num);
                 }
             }
