@@ -1,3 +1,5 @@
+import java.math.BigInteger;
+
 public class Fibonacci {
     public static void main (String[] args) {
 
@@ -7,15 +9,20 @@ public class Fibonacci {
          * write a basic Fibonacci algorithm
          * the first numbers are: 0 1 1 2 3 5 8 13..
          */
-//        int a = 0;
-//        int b = 1;
-//
-//        for (int i = 0; i < 10; i++) {
-//            System.out.println(a);
-//            b += a;
-//            a = b;
-//
-//        }
 
+        BigInteger a = new BigInteger("0");
+        BigInteger b = new BigInteger("1");
+
+
+        for (int i = 1; i < 101; i++) {
+            System.out.println("The " + i + ".Fibonacci number is: " + a);
+            BigInteger c = new BigInteger("0");
+            c = c.add(a).add(b);
+
+            a = b;
+            b = c;
+
+
+        }
     }
 }
