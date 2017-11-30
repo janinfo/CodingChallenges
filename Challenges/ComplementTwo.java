@@ -4,11 +4,11 @@ public class ComplementTwo {
     public static void main(String[] args) {
 
         /* _the challenge_
-		 *
-		 * Given is a list of numbers.
-		 * The algorithm iterates over the list.
-         * At each entry it checks if two entry dextral there is the complement.
-		 */
+	*
+	* Given is a list of numbers.
+	* The algorithm iterates over the list.
+        * At each entry it checks if two entry dextral there is the complement.
+	*/
 
 
         LinkedList myList = new LinkedList();
